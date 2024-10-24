@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: left;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#mainbox {
+    width: 1000px;
+    height: 2000px;
+    padding-top: 20px;
+    background-color: navy;
+    border-radius: 10px;
+    margin: auto;
+}
+
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: black;
+    color: royalblue;
+}
+
+/* TODO: fix alignment, not centered */
+.navsectionleft {
+    background-color: navy;
+    width: 200px;
+    margin-top: 30px;
+    margin: auto;
+    position: fixed;
+}
+
+.navsectionright {
+    background-color: navy;
+    width: 200px;
+    margin-top: 30px;
+    margin: auto;
+    position: fixed;
+    margin-left: 800px;
+}
+
+.navsectionbox {
+    background-color: royalblue;
+    padding: 5px 10px 5px; /* top, right and left, bottom */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.mainsectionbox {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mainsectionbox h2, .mainsectionbox h3 {
+    color: gold;
+}
+
+.mainsectionbox p{
+    text-align: justify;
+}
+
+.mainsectionbox img {
+    border: 5px solid gold;
+}
