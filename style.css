@@ -15,6 +15,10 @@ h1 {
     text-align: center;
 }
 
+li {
+    list-style-position: inside;
+}
+
 #mainbox {
     width: 1000px;
     height: 2000px;
@@ -77,6 +81,7 @@ nav a:hover {
 .mainsectionbox {
     margin-left: 125px;
     margin-right: 125px;
+    margin-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -91,6 +96,20 @@ nav a:hover {
 
 .mainsectionbox img {
     border: 5px solid gold;
+}
+
+.consolespecstable {
+    text-align: left;
+}
+
+.consolespecstable th  {
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.consolespecstable td {
+    width: 450px;
 }
 
 .footersection {
