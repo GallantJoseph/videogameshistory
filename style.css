@@ -103,13 +103,13 @@ nav a:hover {
 
 .consolespecstable th  {
     width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .consolespecstable td {
     width: 450px;
 }
-
-
 
 .footersection {
     width: 1000px;
