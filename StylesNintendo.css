@@ -2,7 +2,8 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     color: white;
-    margin: 20px;
+    margin: 10px;
+    margin-left: 20px;
     padding:0px;
     text-align: left;
 }
@@ -16,26 +17,37 @@ h1 {
 }
 
 header {
+    border: 4px solid black;
     background-color: red;
-    width: 1920px;
-    align-items: center;
-    margin-left: -270px;
+    width: 2000px;
+    margin-left: -250px;
 }
 
 header img {
-    margin-left: 350px;
+    margin-left: 550px;
+
 }
+.innerinfobox img {
+    padding: 4px;
+    border-radius: 10px;
+    border: 4px white solid;
+    display: inline-block;
+}
+.innerinfobox img:hover {
+    transform: scale(1.15); /* Scale up the image on hover */
+}
+
 
 .mainbox {
     border: 30px solid grey;
-    width: 1500px;
-    height: 2000px;
+    width: 1000px;
+    height: 1000px;
     padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
     background-color: gray;
     border-radius: 2px;
-    margin-left: 150px;
+    margin: auto;
     position: fixed;
 }
 
@@ -52,8 +64,8 @@ header img {
 }
 .innermainbox {
     border: 30px solid black;
-    width: 1000px;
-    height: 600px;
+    width: 900px;
+    height: 530px;
     padding: 30px;
     background-color:transparent;
     border-radius: 2px;
@@ -66,18 +78,17 @@ header img {
 
 .innerinfobox{
     background-color: rgba(0, 0, 0, 0.786);
-    width: 1000px; /* Adjusted to fill the innermainbox */
-    max-height: 560px; /* Change to auto for flexible height */
+    width: 850px; /* Adjusted to fill the innermainbox */
+    max-height: 490px; /* Change to auto for flexible height */
     overflow: scroll;
     padding: 65px;
-    margin-left: -60px;
+    margin-left: -30px;
     margin-top: -30px;
 }
 
 nav a {
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -103,16 +114,16 @@ nav a:hover {
 .navsectionleft {
 
     border: black 4px solid;
-    background-color: blue;
+    background-color: rgb(10, 10, 227);
     display: flex;
     flex-direction: column;
     align-items: center;    /* centers left and right*/
     justify-content: center; /* centers up and down */
     width: 220px;
-    height: 600px;
+    height: 530px;
     margin: auto;
     position: fixed;
-    margin-left: -50px;
+    margin-left: -30px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 
@@ -123,17 +134,17 @@ nav a:hover {
     align-items: center;
 }
 .navsectionright {
-    border: black 4px solid;
+    border: black 6px solid;
     background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;    /* centers left and right*/
     justify-content: center;  /*centers up and down*/
     width: 220px;
-    height: 600px;
+    height: 530px;
     margin:auto;
     position: fixed;
-    margin-left: 1170px;
+    margin-left: 1070px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -144,31 +155,61 @@ nav a:hover {
     text-align: center;
     border: 1px solid black;
     background-color: royalblue;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
     border-radius: 15px;
 }
 
 
-h1 {
-    color: blue;
+h1 { 
+    border: solid white 4px;
+    margin-left: 230px;
+    margin-right: 240px;
+    background-color: red;
+    border-radius: 20pt;
+    color: white;
     font-size:  26pt;
 }
 
+h2 {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    color:red;
+    font-size: 20pt;
+}
+
 h3 {
-    color: orange;
-    font-size: 22pt;
+    color: red;
+    font-size: 18pt;
 }
 
 p {
-    color:orange;
-    font-size: 20pt;
+    color:rgb(248, 246, 241);
+    font-size: 14pt;
 } 
 
 li {
-    color: red;
-    font-size: 20pt;
+    color: rgb(248, 246, 241);
+    font-size: 14pt;
 }
 
+.consolespecstable {
+    text-align: left;
+}
+
+.consolespecstable th  {
+    padding: 2px;
+    border: 2px solid white;
+    width: 225px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.consolespecstable td {
+    padding: 2px;
+    width: 300px;
+    border: 2px solid white;
+}
 
 
