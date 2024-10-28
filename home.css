@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+#mainbox {
+    background-color: rgba(0, 0, 0, 0.786);
+    border: 5px solid royalblue;
+}
+
+.headersection {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.mainsectionbox {
+    border: 2px solid red;
+}
+
+.mainsectionbox h2, .mainsectionbox h3 {
+    color: royalblue;
+}
+
+.footersection {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
