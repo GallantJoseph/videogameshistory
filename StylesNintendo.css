@@ -3,13 +3,12 @@
     box-sizing: border-box;
     color: white;
     margin: 10px;
-    margin-left: 20px;
     padding:0px;
     text-align: left;
 }
 
 body {
-    background-color: gray;
+    background-color: pink;
 }
 
 h1 {
@@ -17,18 +16,14 @@ h1 {
 }
 
 header {
-    height: 160px;
-    border: 4px solid black;
+    height: 140px;
+    border: 6px solid white;
+    border-radius: 65px;
     background-color: rgb(223, 8, 8);
-    width: 2000px;
-    margin-left: -250px;
-
+    width: 1300px;
+    padding-left: 160px;
 }
 
-header img {
-    margin-left: 550px;
-
-}
 .innerinfobox img {
     padding: 4px;
     border-radius: 10px;
@@ -41,16 +36,18 @@ header img {
 
 
 .mainbox {
-    border: 30px solid grey;
-    width: 1000px;
-    height: 1000px;
+
+    border: 1px solid pink;
+    width: 1320px;
+    height: 715px;
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: gray;
+    background-color: pink;
     border-radius: 2px;
-    margin: auto;
-    position: fixed;
+    margin:auto;
+    position: relative;
+
 }
 
 ::-webkit-scrollbar {
@@ -66,26 +63,28 @@ header img {
 }
 .innermainbox {
     border: 30px solid black;
-    width: 900px;
+    width: 860px;
     height: 530px;
     padding: 30px;
-    background-color:transparent;
+    background-color: blue; /* was transparent */
     border-radius: 2px;
     margin: auto;
-    margin-left: 190px;
-    position: fixed;
+    margin-left: 230px;
+
+
 
 
 }
 
 .innerinfobox{
-    background-color: rgba(0, 0, 0, 0.786);
-    width: 850px; /* Adjusted to fill the innermainbox */
-    max-height: 490px; /* Change to auto for flexible height */
+    background-color: rgba(31, 30, 30, 0.986);
+    width: 830px; /* Adjusted to fill the innermainbox */
+    max-height: 480px; /* Change to auto for flexible height */
     overflow: scroll;
     padding: 65px;
     margin-left: -30px;
     margin-top: -30px;
+
 }
 
 nav a {
@@ -144,8 +143,7 @@ nav a:hover {
 
 /* TODO: fix alignment, not centered */
 .navsectionleft {
-
-    border: black 4px solid;
+    border: black 6px solid;
     background-color: rgb(33, 33, 236);
     display: flex;
     flex-direction: column;
@@ -154,10 +152,10 @@ nav a:hover {
     width: 220px;
     height: 530px;
     margin: auto;
-    position: fixed;
-    margin-left: -30px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    float: left;
+
 
 }
 
@@ -175,10 +173,10 @@ nav a:hover {
     width: 220px;
     height: 530px;
     margin:auto;
-    position: fixed;
-    margin-left: 1070px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    float: right;
+
 }
 
 .navsectionbox {
