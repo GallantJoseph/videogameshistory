@@ -24,3 +24,7 @@ body {
     border-top: 2px solid red;
     border-bottom: 2px solid red;
 }
+
+.navsectionbox {
+    background-color: black;
+}
