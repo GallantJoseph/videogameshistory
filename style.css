@@ -19,6 +19,11 @@ li {
     list-style-position: inside;
 }
 
+img {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
 #mainbox {
     width: 1000px;
     height: 3000px;
@@ -119,7 +124,9 @@ nav a:hover {
 }
 
 .mainsectionbox img {
-    
+    margin: auto;
+    margin-top: 50px;
+    display: block;
 }
 
 .consolespecstable {
