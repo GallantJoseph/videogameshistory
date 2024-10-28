@@ -19,9 +19,14 @@ li {
     list-style-position: inside;
 }
 
+img {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
 #mainbox {
     width: 1000px;
-    height: 2000px;
+    height: 3000px;
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.786);
     border-radius: 15px;
@@ -104,6 +109,7 @@ nav a:hover {
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 50px;
+    margin-top: 50px;
     padding: 10px;
     border: 2px solid burlywood;
     border-radius: 10px;
@@ -118,7 +124,9 @@ nav a:hover {
 }
 
 .mainsectionbox img {
-    
+    margin: auto;
+    margin-top: 50px;
+    display: block;
 }
 
 .consolespecstable {
@@ -129,10 +137,15 @@ nav a:hover {
     width: 225px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-top: 2px solid gold;
 }
 
 .consolespecstable td {
     width: 450px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px dotted gold;
 }
 
 .footersection {
