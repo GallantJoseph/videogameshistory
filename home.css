@@ -52,7 +52,12 @@ body {
     width: 620px;
     border: 6px solid rgba(0, 0, 0, 0.934); ;
     border-radius: 15pt;
+}
 
+.mainsectionbox img {
+    margin: auto;
+    margin-top: 50px;
+    display: block;
 }
 
 .mainsectionbox h2 {
