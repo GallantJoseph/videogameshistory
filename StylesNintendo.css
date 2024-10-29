@@ -8,7 +8,10 @@
 }
 
 body {
-    background-color: pink;
+    background-image: url(images/mariobackround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -37,13 +40,13 @@ header {
 
 .mainbox {
 
-    border: 1px solid pink;
+    border: 1px solid transparent;
     width: 1320px;
     height: 715px;
     padding-bottom: 30px;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: pink;
+    background-color: transparent;
     border-radius: 2px;
     margin:auto;
     position: relative;
@@ -252,4 +255,15 @@ li {
     border: 2px solid white;
 }
 
-
+footer {
+    width: 650px;
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    float: left;
+    border: 4px solid white;
+    border-radius: 15px;
+    color:white;
+    font-size: 20pt;
+}
