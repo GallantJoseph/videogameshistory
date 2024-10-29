@@ -20,6 +20,16 @@ li {
     list-style-position: inside;
 }
 
+figure {
+    margin-left: 0px;
+    margin-right: 0px;;
+}
+
+figure figcaption {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
 img {
     border: 3px solid white;
     border-radius: 10px;
@@ -27,7 +37,6 @@ img {
 
 #mainbox {
     width: 1000px;
-    height: 3000px;
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.786);
     border-radius: 15px;
@@ -153,6 +162,7 @@ nav a:hover {
     padding-top: 5px;
     padding-bottom: 5px;
     border-left: 2px dotted gold;
+    text-align: justify;
 }
 
 .footersection {
@@ -166,14 +176,11 @@ nav a:hover {
 }
 
 #backtotopbutton {
+    font-size: 24pt;
     text-decoration: underline;
     display: block;
-    width: 150px;
+    width: 200px;
     height: 20px;
-    font-size: 20pt;
-    color: white
-}
-
-.centertext {
-    text-align: center;
+    color: white;
+    margin: auto;
 }
