@@ -12,7 +12,6 @@ body {
     
 }
 
-
 .picturebox {
     border-radius: 15pt;
     margin: auto;
@@ -35,8 +34,8 @@ body {
 
 }
 
-.headersection h1{
-    color:black;
+.headersection h1 {
+    color: black;
     font-size: 40pt;
     font-family: sans-serif;
     font-weight: 700;
@@ -78,8 +77,6 @@ body {
     border-top: 2px solid red;
     border-bottom: 2px solid red;
 }
-
-
 
 
 li {
@@ -130,10 +127,6 @@ nav a:hover {
     transform: scale(1.10); /* Scale up the image on hover */
 }
 
-
-
-
-
 .navsectionleft {
     background-color: rgba(202, 202, 172, 0.568);
     border: 6px solid rgba(0, 0, 0, 0.934); ;
@@ -144,6 +137,7 @@ nav a:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
 }
 
 .navsectionright {
@@ -157,6 +151,7 @@ nav a:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 0px;
 }
 
 .navsectionbox {
@@ -169,14 +164,11 @@ nav a:hover {
     text-align: center;
 }
 
-
-
 .mainsectionbox p{
     font-size: 16pt;
     color: black;
     text-align: justify;
 }
-
 
 .consolespecstable th  {
     width: 225px;
