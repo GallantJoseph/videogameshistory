@@ -6,11 +6,14 @@
     padding:0px;
     text-align: left;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body {
     background-image: url(images/mariobackround.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
 }
 
