@@ -92,11 +92,11 @@ img {
 
 #mainbox {
     width: 1030px;
-    height: 3000px;
     padding: 10px;
     margin: auto;
     padding-top: 20px;
-    background-color: rgba(37, 18, 18, 0.909);
+    /* background-color: rgba(37, 18, 18, 0.909); */
+    background-color: purple;
     border-radius: 15px;
     border: 15px solid purple;
 
