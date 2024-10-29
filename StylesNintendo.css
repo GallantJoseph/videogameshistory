@@ -258,6 +258,9 @@ li {
     border: 2px solid white;
 }
 
+.tableimg {
+    text-align: center;
+}
 footer {
     width: 650px;
     background-color: red;
