@@ -5,19 +5,21 @@
     margin-top: 20px;
     padding: 0px;
     text-align: left;
+    line-height: 1.5em;
 }
 
 body {
     background-color: peru;
+    background-image: url('images/wood_grain.jpg');
 }
 
 h1 {
     text-align: center;
-    font-size: 28pt;
 }
 
 li {
     list-style-position: inside;
+    text-align: justify;
 }
 
 figure {
@@ -38,8 +40,7 @@ img {
 #mainbox {
     width: 1000px;
     padding-top: 20px;
-    background-image: url('images/wood_grain.jpg');
-    background-size: 100%; 
+    background-color: rgba(0, 0, 0, 0.786);
     border-radius: 15px;
     border: 5px solid burlywood;
     margin: auto;
@@ -73,14 +74,15 @@ nav a:hover {
 
 .headersection {
     width: 990px;
-    height: 50px;
+    height: 100px;
     background-color: black;
     border-top: 2px solid peru;
     border-bottom: 2px solid peru;
+    padding-top: 25px;
 }
 
 .headersection h1 {
-    margin-top: 2px;
+    margin-top: 0px;
 }
 
 .navsectionleft {
