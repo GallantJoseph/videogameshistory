@@ -135,6 +135,9 @@ nav a:hover {
     margin: auto;
     margin-top: 50px;
     display: block;
+    object-fit: cover;
+    height:100%;
+    width: 500px;
 }
 
 .consolespecstable {
@@ -174,10 +177,4 @@ nav a:hover {
     font-size: 20pt;
     color: white;
     margin-bottom: 20px;
-}
-
-.toobig{
-    object-fit: cover;
-    height:100%;
-    width: 500px;
 }
