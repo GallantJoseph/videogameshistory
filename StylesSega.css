@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(images/sonicBackground.jpg); /*/ Background by TwilightShadow180 on DeviantArt /*/
+    background-image: url(images/SonicPageImages/sonicBackground.jpg); /*/ Background by TwilightShadow180 on DeviantArt /*/
     background-size: 30%; /*/ Get input on the size of this later /*/
 }
 
@@ -21,13 +21,13 @@ li {
 }
 
 img {
-    border: 3px solid white;
+    border: 5px solid rgb(46, 46, 254);
     border-radius: 10px;
 }
 
 #mainbox {
     width: 1000px;
-    height: 3000px;
+    height: 7500px;
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.786);
     border-radius: 15px;
@@ -139,7 +139,7 @@ nav a:hover {
     width: 225px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-top: 2px solid gold;
+    border-top: 2px solid #FFD850;
 }
 
 .consolespecstable td {
@@ -147,7 +147,7 @@ nav a:hover {
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-left: 2px dotted gold;
+    border-left: 2px dotted #FFD850;
 }
 
 .footersection {
