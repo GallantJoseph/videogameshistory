@@ -23,6 +23,10 @@ li {
     text-align: justify;
 }
 
+hr {
+    color: peru;
+}
+
 figure {
     margin-left: 0px;
     margin-right: 0px;;
