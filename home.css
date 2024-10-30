@@ -90,7 +90,7 @@ img {
     margin: auto;
     padding-top: 20px;
     /* background-color: rgba(37, 18, 18, 0.909); */
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.75);
     border-radius: 15px;
     border: 15px solid purple;
 
@@ -181,14 +181,35 @@ nav a:hover {
 }
 
 .footersection {
+    display: flex;
+    text-align: center;
+    justify-content: center; /* centers up and down */
     width: 620px;
     height: 150px;
     margin: auto;
     margin-top: 100px;
-    padding: 15px;
+    padding: 20px;
     background-color: rgba(202, 202, 172, 0.568);
     border: 6px solid rgba(0, 0, 0, 0.934); ;
     border-radius: 15pt;
+}
+
+footer a:link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center; /* centers up and down */
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(1.10); /* Scale up the image on hover */
 }
 
 #backtotopbutton {
