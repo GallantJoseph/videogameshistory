@@ -123,8 +123,13 @@ nav a:hover, footer a:hover {
     margin-top: 30px;
 }
 
-.mainsectionbox h2, .mainsectionbox h3 {
+.mainsectionbox h2, .mainsectionbox h3, .mainsectionbox h2 a {
     color:rgb(46, 46, 254);
+    text-decoration: none;
+}
+
+.mainsectionbox h2 a:hover{
+    text-decoration: underline;
 }
 
 .mainsectionbox p{
