@@ -134,6 +134,28 @@ nav a:hover, footer a:hover {
     border-radius: 10px;
 }
 
+.mainsectionbox a {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:link {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:visited {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.mainsectionbox a:hover {
+    color: black;
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
 .mainsectionbox h1 {
     font-size: 26pt;
     margin-top: 30px;
