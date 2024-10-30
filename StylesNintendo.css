@@ -93,6 +93,30 @@ header {
 
 }
 
+li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+li a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: blue;
+}  
+
+li a:hover {
+    background-color: blue;
+    text-decoration: none;
+    color: black;
+}  
+
 nav a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
@@ -148,7 +172,7 @@ nav a:hover {
 }
 
 
-/* TODO: fix alignment, not centered */
+
 .navsectionleft {
     border: black 6px solid;
     background-color: rgb(33, 33, 236);
