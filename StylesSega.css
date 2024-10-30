@@ -36,7 +36,7 @@ img {
     margin: auto;
 }
 
-nav a {
+nav a, footer a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
     font-weight: bold;
@@ -46,17 +46,17 @@ nav a {
     border: 2px solid white;
 }
 
-nav a:link {
+nav a:link, footer a:link {
     text-decoration: none;
     color: white;
 }
 
-nav a:visited {
+nav a:visited, footer a:visited {
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     text-decoration: none;
     color: white;
     transform: scale(1.10); /* Scale up the image on hover */
@@ -169,12 +169,4 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#backtotopbutton {
-    text-decoration: underline;
-    display: block;
-    font-size: 20pt;
-    color: white;
-    margin-bottom: 20px;
 }

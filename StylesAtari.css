@@ -47,7 +47,7 @@ img {
     margin: auto;
 }
 
-nav a {
+nav a, footer a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
     font-weight: bold;
@@ -57,17 +57,17 @@ nav a {
     border: 2px solid white;
 }
 
-nav a:link {
+nav a:link, footer a:link {
     text-decoration: none;
     color: white;
 }
 
-nav a:visited {
+nav a:visited, footer a:visited {
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     text-decoration: none;
     color: white;
     transform: scale(1.10); /* Scale up the image on hover */
@@ -170,22 +170,14 @@ nav a:hover {
 }
 
 .footersection {
+    display: flex;
     width: 990px;
-    height: 100px;
+    height: 150px;
     margin-top: 100px;
     margin-bottom: 20px;
-    padding: 25px;
     background-color: black;
     border-top: 2px solid peru;
     border-bottom: 2px solid peru;
-}
-
-#backtotopbutton {
-    font-size: 24pt;
-    text-decoration: underline;
-    display: block;
-    width: 200px;
-    height: 20px;
-    color: white;
-    margin: auto;
+    text-align: center;
+    justify-content: center; /* centers up and down */
 }
