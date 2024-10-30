@@ -96,7 +96,7 @@ img {
 
 }
 
-nav a {
+nav a, footer a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
     font-weight: bold;
@@ -105,17 +105,17 @@ nav a {
     display:inline-block;
 }
 
-nav a:link {
+nav a:link, footer a:link {
     text-decoration: none;
     color: white;
 }
 
-nav a:visited {
+nav a:visited, footer a:visited {
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
     text-decoration: none;
     color: white;
     transform: scale(1.10); /* Scale up the image on hover */
@@ -188,39 +188,7 @@ nav a:hover {
     height: 150px;
     margin: auto;
     margin-top: 100px;
-    padding: 20px;
     background-color: rgba(202, 202, 172, 0.568);
     border: 6px solid rgba(0, 0, 0, 0.934); ;
     border-radius: 15pt;
-}
-
-footer a:link {
-    display: flex;
-    text-decoration: none;
-    color: white;
-    justify-content: center; /* centers up and down */
-}
-
-footer a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover {
-    text-decoration: none;
-    color: white;
-    transform: scale(1.10); /* Scale up the image on hover */
-}
-
-#backtotopbutton {
-    text-decoration: underline;
-    font-family: sans-serif;
-    font-size: 36pt;
-    font-weight: bold;
-    color: black;
-    display: block;
-    width: 200px;
-    height: 20px;
-    font-size: 20pt;
-    margin: auto;
 }
