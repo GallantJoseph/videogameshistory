@@ -118,8 +118,9 @@ nav a:hover {
 }
 
 .toplinks a:link {
-    margin-left: -5px;
-    padding: 6px;
+    font-size: 12pt;
+    margin-left: 15px;
+    padding: 4px;
     border: 1px white solid;
     border-radius: 10px;
     background-color: black;
